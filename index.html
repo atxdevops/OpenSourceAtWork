@@ -35,128 +35,144 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<section data-background="images/90F8aUepslB84.gif">
+					<section data-background="img/35439260711_d80bfe59cd_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/my_public_domain_photos/35439260711/ -->
 						<h1>Open Source at Work</h1>
-						<p  style="background-color: rgba(0, 0, 0, 0.3);">Learnings about copyright and licensing</p>
-						<p  style="background-color: rgba(0, 0, 0, 0.3);">June 2017 Edition</p>
+						<p  style="background-color: rgba(0, 0, 0, 0.5);">Learnings about copyright and licensing</p>
+						<p  style="background-color: rgba(0, 0, 0, 0.5);">June 2017 Edition</p>
 						<aside class="notes"></aside>
 					</section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">What we're going to talk about</h2>
-						<ul style="background-color: rgba(0, 0, 0, 0.3);">
-							<li>Disclaimers!</li>
-							<li>Copyright</li>
-							<li>Licensing</li>
-							<li>Addons</li>
-							<li>Companies &amp; Open Source</li>
-							<li>Contributing</li>
-							<li>Why you should care</li>
-							<li>Next steps</li>
-						</ul>
+					<section data-background="img/35439260711_d80bfe59cd_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/my_public_domain_photos/35439260711/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Hi! I'm Carl</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">edolnx on most things (Twitter,GH,GL,Slack,etc)</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Involved with Open Source since 1996</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">By Day I am a Cloud Systems Developer at Kumulus Technologies</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">By Night I <span style="text-decoration: line-through;">Fight Crime</span> run a small hosting company called Sphere Cube Host</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Previously: Startups, SMBs, Enterprises, Government</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">I am not a lawyer</p>
+						<aside class="notes">This is my first Hello slide, please be gentle</aside>
+					</section>
+					<section data-background="img/25210361044_80a552c07c_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/infowire/25210361044/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">What we're going to talk about</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Disclaimers!</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Copyright</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Licensing</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Addons</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Companies &amp; Open Source</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Contributing</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Why you should care</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Next steps</p>
 						<aside class="notes">This is a brief agenda</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/NotBad.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Disclaimers!</h2>
-						<ul style="background-color: rgba(0, 0, 0, 0.3);">
-							<li>I am not a lawyer and this is not legal advice</li>
-							<li>I know Open Source != Free Software, and I'm not using the latter term for a reason</li>
-							<li>I'm sharing my experiences to date, YMMV</li>
-							<li>You should discuss these topics with <em>your</em> lawyer</li>
-							<li>In most cases, your company's lawyer is not your lawyer</li>
-							<li>Most of my experience is related to law in the 5th Circuit and in Texas and may not apply elsewhere</li>
-						</ul>
+					<section data-background="img/33237150680_6c5ca07f69_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/exit78/33237150680/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.8);">Disclaimers!</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.8);">I am not a lawyer and this is not legal advice</p>
+						<p style="background-color: rgba(0, 0, 0, 0.8);">I know Open Source != Free Software, and I'm not using the latter term for a reason</p>
+						<p style="background-color: rgba(0, 0, 0, 0.8);">I'm sharing my experiences to date, YMMV</p>
+						<p style="background-color: rgba(0, 0, 0, 0.8);">You should discuss these topics with <em>your</em> lawyer</p>
+						<p style="background-color: rgba(0, 0, 0, 0.8);">In most cases, your company's lawyer is not your lawyer</p>
+						<p style="background-color: rgba(0, 0, 0, 0.8);">Most of my experience is related to law in the 5th Circuit and in Texas and may not apply elsewhere</p>
 						<aside class="notes">
 							We're talk about OSS for use in commerical environments, where Free Software isn't a great fit to begin with. I'm also using OSS as a container for all Open Source and Free software. Stallman would not approve, but he wouldn't approve of most of what I am saying anyway.
 							I'm going to try and avoid religious wars.
 							You may question some of my word choices (esp: pronouns) and I have reasons for them. Take a note and sit tight.
-							Specifically in 9th Circuit (California, Oregon, and Washington) Oracle v Google has made a lot of changes.
+							Specifically in 9th Circuit (AK AZ CA HI ID MO NV OR WA) Oracle v Google has made a lot of changes.
+							Discussion is welcome, but please raise your hand so we're not all speaking over eachother.
 						</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/BidenGlasses.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Copyright</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Since 1989 in the USA, everything is automatically copy written by the owner when created</li>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Copyright means all rights reserved by the copyright owner exclusively</li>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">That exclusivity lasts for 70 years (or more) after the creation of the work</li>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">To allow others to legally use or modify your work you must license it</li>
+					<section data-background="img/pexels-photo.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/business-signing-writing-writer-24193/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Copyright</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Since 1989 in the USA, everything is automatically copy written by the owner when created</li>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Copyright means all rights reserved by the copyright owner exclusively</li>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">That exclusivity lasts for 70 years (or more) after the creation of the work</li>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">To allow others to legally use or modify your work you must license it</li>
 						<aside class="notes">
 							Copyright is automatic, no paperwork is required. It is however recommended (I've never done it.)
 							Other countries that have ratified the Boerne Convention get a lot of these same rules.
 							On the last point: this means code you find on the Internet without a license you legally cannot use at all.
 						</aside>
 					</section>
-					<section data-background="images/BidenGlasses.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Copyright License</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Grants rights to people other than the copyright owner(s) of the work</li>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Copying and distribution are forbidden otherwise</li>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Modification is also forbidden without a license</li>
+					<section data-background="img/document-agreement-documents-sign-48195.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/sign-pen-business-document-48195/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Copyright License</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Grants rights to people other than the copyright owner(s) of the work</li>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Copying and distribution are forbidden otherwise</li>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Modification is also forbidden without a license</li>
 						<aside class="notes">
 							Licenses are where the magic happens. Licenses are super important.
 						</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Common Licenses</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">I made these groups up, but they will help with later discussions.</p>
-						<ul style="background-color: rgba(0, 0, 0, 0.3);">
-							<li>Copyleft</li>
-							<li>Academic</li>
-							<li>Well Known Open Source</li>
-							<li>Creative Commons</li>
-							<li>Everything Else</li>
-						</ul>
+					<section data-background="img/pexels-photo-207709.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/book-business-close-up-color-207709/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Common Licenses</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">I made some of these groups up, but they will help with later discussions.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Copyleft</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Academic</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Well Known Open Source</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Creative Commons</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Everything Else</p>
 						<aside class="notes">
 							The order is somewhat arbitrary, but let's get into specifics...now
 						</aside>
 					</section>
-					<section data-background="images/visualization.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Copyleft</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Your various GNU licenses (GPLv2, GPLv3, AGPL, LGPLv3, etc.)</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Must provide attribution, must share what you got, must share changes back, “infectious” (less so for AGPL and LGPL)</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Designed to be the opposite of Copyright (hence Copyleft)</p>
+					<section data-background="img/15534019716_16ffbdaf33_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/yellowstonenps/15534019716/in/photolist-pEFUS9-KA6cku-TwGqEZ-UyQ3Wh-P4k84c-TVpBXH-UFF7ph-SUDmGA-sbWmD6-aaQ8F3-ryg39G-SUDpu9-a5PX5M-L87RHL-feUPAy-p4MDQH-EpR4Ma-qQ49ud-QRajxE-9Zgb5j-jd5s8H-9Zgb8f-a5QgHV-fbkvP8-teNFqU-9ZdoVv-cA845w-cA84xA-eeUXnk-qgkPxa-9ZgiaC-Lse3cY-bvrRgs-feyKCF-QAhzaN-bvrTtA-bvrRuA-PVBEmW-MhKB7g-VNUwxv-umSiSR-zLjKmf-HRU8xw-Srn39Z-pvzKcc-n4t1qo-NC87t5-pAYoDN-oMhqw7-p4vUgp -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Copyleft</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Your various GNU licenses (GPLv2, GPLv3, AGPL, LGPLv3, etc.)</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Must provide attribution, must share what you got, must share changes back, “infectious” (less so for AGPL and LGPL)</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Designed to be the opposite of Copyright (hence Copyleft)</p>
 						<aside class="notes">
 							There is a lot of religion around these licenses, and I'm going to try and skip over most of that.
 						</aside>
 					</section>
-					<section data-background="images/ComputeIntensive.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Academic</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">BSD &amp; MIT</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">I also clump things like LLVM and X11 in here too</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Opposite end of the spectrum from copyleft. Do what you want, not my problem.</p>
+					<section data-background="img/pexels-photo-207692.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/red-building-with-clock-tower-207692/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Academic</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">BSD &amp; MIT</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">I also clump things like LLVM and X11 in here too</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Opposite end of the spectrum from copyleft. Do what you want, not my problem.</p>
 						<aside class="notes">
 							This is where I tend to live. There is some religion to get over here. Once I accepted things will be used commercially without credit (and GPL doesn't help with that) and that's actually a good thing (IP in NT4 vs 2000) then do it.
 						</aside>
 					</section>
-					<section data-background="images/ComputeIntensive.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Other common Open Source licenses</h2>
-						<h3 style="background-color: rgba(0, 0, 0, 0.3);">Apache v2</h3>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Must provide attribution in source, must share what you got, and everything else is good. This is <em>the most common</em> license for commerical Open Source.</p>
-						<h3 style="background-color: rgba(0, 0, 0, 0.3);">Artistic</h3>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This is used for perl. There are others.</p>
+					<section data-background="img/pexels-photo-26228.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/peacock-feathers-bird-animal-26228/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Other common Open Source licenses</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Apache v2: Must provide attribution in source, must share what you got, and everything else is good. This is <em>the most common</em> license for commerical Open Source.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Artistic: This is used for Perl</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">There are others like the Eclipise Public License that are widely used</p>
 						<aside class="notes">
 							This is also a great place to be. There are still some issues, so put a pin in that and we'll get back to it.
 						</aside>
 					</section>
-					<section data-background="images/ComputeIntensive.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Creative Commons</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Great for non-code, easy to understand, easy to pick. These span the spectrum from public domain work-alike (CC0) to to copyleft work-alike (CC-BY-SA-NC).</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">These are best for non-software things like docs, hardware designs, websites, etc.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);"><a href="https://creativecommons.org">creativecommons.org</a></p>
+					<section data-background="img/31945134263_4ae63b6962_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/cogdog/31945134263/in/photolist-QETasX-W4BiFN-6VspmJ-eDwNQx-TcmtGW-a7KUt5-VUK4i7-Uy6UJL-7bc6ZK-iK4EZu-eDCzpL-99Ra4S-c6WCvf-c6WDys-Ptdfvy-8vXCAZ-fQDNaP-6AQJR2-iJEmWP-iJADG3-p7R8BY-diF5Zj-iK7agW-iK7b6w-iJZGxg-8nogPE-W4BtwQ-iJFvZC-6jywda-6jCET9-iJDy4c-ihiMMQ-7bfN8y-iK5ty1-ihBkZn-8nHXbd-8gLyR8-ihzfqv-6AkFX6-iJFHUm-igEmZY-igNFLZ-igK2jf-igJxrH-ih5GxE-8DoWtJ-iK4sNo-igMDkj-igEA8F-iK2sBL -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Creative Commons</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Great for non-code, easy to understand, easy to pick. These span the spectrum from public domain work-alike (CC0) to a copyleft work-alike (CC-BY-SA-NC).</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">These are best for non-software things like docs, hardware designs, websites, etc.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);"><a href="https://creativecommons.org">creativecommons.org</a></p>
 						<aside class="notes">
 							CC is awesome, and I cannot understate this enough. However it's not the best for use with Software specifically. I use these for photos, user content on sites, etc.
 						</aside>
 					</section>
-					<section data-background="images/ComputeIntensive.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Everything Else</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">There there be dragons. Tread carefully (or better still not at all).</p>
-						<h3 style="background-color: rgba(0, 0, 0, 0.3);">CDDL</h3>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">There is an incredible amount of awesome here. It's better understood than it was before and the Lawnmower doesn't seem to care anymore.</p>
-						<h3 style="background-color: rgba(0, 0, 0, 0.3);">JSON License</h3>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">"Do not evil" Seriously?!</p>
+					<section data-background="img/29640004691_61978f6f63_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/emeraldschell/29640004691/in/photolist-MabLKD-Di3tud-Tg2f1E-xs3a85-RyTmCk-SBwK2H-Sz6gdQ-LwGMW3-Tg2fpL-SBwLHD-NZABWU-AHbvUE-HbTYyc-EkCrnr-RyTkgx-SBwJ2X-Se1GJY-QBZMbA-Sz6cof-TXqqmj-TXqkHw-RyThS4-ymKu3s-E4DMeb-QgX8QW-QEF5qp-QgWURE-PBuMnp-TXqmJQ-KBkfqz-KB8pum-TXqr6q-Lybpma-LcENsq-H8D8r1-L7HSUA-LoCgms-LyboNM-Lr3kq8-rTk4sW-LoqK57-KAVw6b-LoqKas-KBjzBH-wgo9wW-tWKkXH-uT7Hzo-x8G82w-wrmjDE-Dy3NMu -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Everything Else</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">There there be dragons. Tread carefully (or better still not at all).</p>
+						<h3 style="background-color: rgba(0, 0, 0, 0.5);">CDDL</h3>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">There is an incredible amount of awesome here. It's better understood than it was before and the Lawnmower doesn't seem to care anymore.</p>
+						<h3 style="background-color: rgba(0, 0, 0, 0.5);">JSON License</h3>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">"The Software shall be used for Good, not Evil." Seriously?!</p>
 						<aside class="notes">
 							Lawnmower reference: Bryan Cantrill talk "Fork Yeah! The rise and development of Illumos" from LISA 25 https://www.youtube.com/watch?v=-zRN7XLCRhc
 							Briefly on CDDL re: OpenZFS on Linux - things look good now. Debian is shipping it in 9 (stretch) by default. OpenZFS being the parent is helping.
@@ -165,56 +181,62 @@
 					</section>
 				</section>
 				<section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">License Addons</h2>
-						<h3 style="background-color: rgba(0, 0, 0, 0.3);">Contributor License Agreements (CLA)</h3>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Sometimes the license misses things, sometimes you are thinking ahead...</p>
+					<section data-background="img/pexels-photo-96885.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/bureau-bureautique-trombones-secretariat-96885/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">License Addons</h2>
+						<h3 style="background-color: rgba(0, 0, 0, 0.5);">Contributor License Agreements (CLA)</h3>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Sometimes the license misses things, sometimes you are thinking ahead...</p>
 						<aside class="notes">
 							Sometime a stock license is not enough, so...
 						</aside>
 					</section>
-					<section data-background="images/DoryRemembered.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Patent Riders</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Usually stipulates that you won't patent your contributions, and/or you grant a royalty free license to any user of this code</p>
+					<section data-background="img/IMG_20170627_115326.jpg">
+						<!-- Background Image Attribution: CC0 I made this -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Patent Riders</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Usually stipulates that you won't patent your contributions, and/or you grant a royalty free license to any user of this code</p>
 						<aside class="notes">
 							Not much here to talk about. More details later.
 						</aside>
 					</section>
-					<section data-background="images/DoryRemembered.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Enforcing Trademarks</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Some orgs (OpenStack and Canonial are good examples) have trademarks for their products/projects. This allows them to control their IP in conjunction with their code.</p>
+					<section data-background="img/night-74051.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/night-74051/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Enforcing Trademarks</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Some orgs (OpenStack and Canonical are good examples) have trademarks for their products/projects. This allows them to control their IP in conjunction with their code.</p>
 						<aside class="notes">
 							In this example, both OpenStack and Canonical have a lot to leverage.
 							It's unclear if you can use the OpenStack APIs without being a trademark licensee for example.
 							Canonical is super protective of their trademarks and require you to repackage and recompile EVERYTHING to change the name if you use Canonical code as an upstream.
 						</aside>
 					</section>
-					<section data-background="images/DoryRemembered.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Copyright Assignment</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This is a powerful tool that can be used for good and evil. Means all contributions are property of the project and usually requires some form of corporate entity to own the project.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">An example of evil: OpenOffice.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">An example of good: Ogre3D.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">An example of not having this: OpenSSL.</p>
+					<section data-background="img/pexels-photo-398532.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/colleagues-cooperation-fist-bump-fists-398532/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Copyright Assignment</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">This is a powerful tool that can be used for good and evil. Means all contributions are property of the project and usually requires some form of corporate entity to own the project.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">An example of evil: OpenOffice.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">An example of good: Ogre3D.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">An example of not having this: OpenSSL.</p>
 						<aside class="notes">
 							OpenOffice: you have to assign all the copyrights to Oracle and we can do whatever we want with them. This was a large part of what killed and forked OpenOffice.
 							Ogre3D: Code was originally LGPL/Commerical. This caused a lot of problems esp. with console developers. Switched to MIT, and everything is better now.
 							OpenSSL: had their own license, switching to Apache v2. No CLA, so it's a long slow process for something as "small" as OpenSSL.
 						</aside>
 					</section>
-					<section data-background="images/TheGibson.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Covering an organization</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">A Corporate Contribution License Agreement (CCLA) makes it easier to cover everyone in an org instead of each individual contributor. More on this later.</p>
+					<section data-background="img/pexels-photo-17739.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/rainy-rain-umbrella-weather-17739/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Covering an organization</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">A Corporate Contribution License Agreement (CCLA) makes it easier to cover everyone in an org instead of each individual contributor. More on this later.</p>
 						<aside class="notes">
 							Hold on to your pants.
 						</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies and Open Source</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Most companies have an unfavorable view of copyleft in general and the GPL specifically.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This isn't surprising since companies and FSF/SFC have opposing goals.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">You'll have less resistance with an Academic or Apache v2 license in most orgs.</p>
+					<section data-background="img/pexels-photo-40120.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/meeting-pencils-macbook-notebooks-40120/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies and Open Source</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Most companies have an unfavorable view of copyleft in general and the GPL specifically.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">This isn't surprising since companies and FSF/SFC have opposing goals.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">You'll have less resistance with an Academic or Apache v2 license in most orgs.</p>
 						<aside class="notes">
 							Lots to unpack here.
 							Free Software Foundation and Software Freedom Center have stated goals to end commercial software. This tends to make their preferred licenses hard to use by companies.
@@ -224,49 +246,54 @@
 							Let's dive into why.
 						</aside>
 					</section>
-					<section data-background="images/nvidia.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv2 (1/4)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-218983.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/architecture-background-buildings-business-218983/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv2 (1/4)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 Preamble: Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Makes any patents tied to software royalty free or unenforceable</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Makes any patents tied to software royalty free or unenforceable</p>
 						<aside class="notes">
 							Patents are huge, and this is already a major problem. It's in the preamble, and I've seen claims that it both is and is not enforceable because of that. The goal is clear (and frequently undesirable) but enforceability is not.
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv2 (2/4)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-218983.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/architecture-background-buildings-business-218983/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv2 (2/4)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 2(b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">The linking clause. Linking a GPLv2 library makes your code also GPLv2 (hence "infectious")</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">The linking clause. Linking a GPLv2 library makes your code also GPLv2 (hence "infectious")</p>
 						<aside class="notes">
 							This is the big one. This is the linking clause. This goes both ways. Does your code use libreadline? Did you know that code is arguably GPLv2 now?
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv2 (3/4)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-218983.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/architecture-background-buildings-business-218983/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv2 (3/4)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: 55%;">
 							6: Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">You cannot relicense GPLv2 works. You cannot sell GPLv2 code. If you multi-license you cannot take away rights granted or restrictions enforced by the GPLv2</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">You cannot relicense GPLv2 works. You cannot sell GPLv2 code. If you multi-license you cannot take away rights granted or restrictions enforced by the GPLv2</p>
 						<aside class="notes">
-							Funny story: web album
+							Is this enforcable? As the owner you can multi-license. No one can stop you. I agree that a user cannot relicense it for you, but it's a weird "freedom".
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv2 (4/4)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-218983.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/architecture-background-buildings-business-218983/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv2 (4/4)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 9. [...]If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">"Or later". Did the author opt out? Congraulations that code is now GPLv3</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">"Or later". Did the author opt out? Congraulations that code is now GPLv3</p>
 						<aside class="notes">
 							Patents are huge, and this is already a major problem. It's in the preamble, and I've seen claims that it both is and is not enforceable because of that. The goal is clear (and frequently undesirable) but enforceability is not.
 						</aside>
 					</section>
-					<section data-background="images/UnlimitedPower.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; Linux</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-60088.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/emperor-penguin-with-wings-sapread-60088/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; Linux</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: 55%;">
 NOTE! This copyright does *not* cover user programs that use kernel
 services by normal system calls - this is merely considered normal use
 of the kernel, and does *not* fall under the heading of "derived work".
@@ -274,230 +301,241 @@ Also note that the GPL below is copyrighted by the Free Software
 Foundation, but the instance of code that it refers to (the Linux
 kernel) is copyrighted by me and others who actually wrote it.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: 55%;">
 Also note that the only valid version of the GPL as far as the kernel
 is concerned is _this_ particular version of the license (ie v2, not
 v2.2 or v3.x or whatever), unless explicitly otherwise stated.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Anything that is user space is outside the linking clause scope. Also no auto upgrade.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Anything that is user space is outside the linking clause scope. Also no auto upgrade.</p>
 						<aside class="notes">
 							This has been in the Kernel COPYING file since 2005. Did you know?
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv3 (1/3)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-47426.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/high-rise-building-during-night-time-photograph-47426/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv3 (1/3)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 3. Protecting Users' Legal Rights From Anti-Circumvention Law
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
-No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: 55%;">
+No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures. When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">[Continued on next slide]</p>
-						<aside class="notes">
-							Lots of text, had to split into two slides
-						</aside>
-					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv3 (1.5/3)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
-3. Protecting Users' Legal Rights From Anti-Circumvention Law
-						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
-When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.
-						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Passwords count as anti-circumvention. Just sayin'</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Passwords count as anti-circumvention. Just sayin'</p>
 						<aside class="notes">
 							Remember when I said commercial software and FSF are at odds?
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv3 (2/3)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-47426.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/high-rise-building-during-night-time-photograph-47426/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv3 (2/3)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 5(c). You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This is the new and “improved” linking clause.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">This is the new and “improved” linking clause.</p>
 						<aside class="notes">
 							I don't think this is am improvement. In fact, I think this is even more vague.
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; GPLv3 (3/3)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-47426.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/high-rise-building-during-night-time-photograph-47426/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Companies &amp; GPLv3 (3/3)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 11. Patents
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Much more clear</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Much more clear</p>
 						<aside class="notes">
 							Clearer, but not always better
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; Apache v2 (1/2)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-134643.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/time-lapse-cars-on-fast-motion-134643/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.7);">Companies &amp; Apache v2 (1/2)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.7); font-family: monospace; font-size: smaller;">
 3. Grant of Patent License
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: 55%;">
+						<p style="background-color: rgba(0, 0, 0, 0.7); font-family: monospace; font-size: 55%;">
 Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">More is not always better</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">This is a big reason why companies like Apache v2</p>
 						<aside class="notes">
 							Sorry for the really small font
 						</aside>
 					</section>
-					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Companies &amp; Apache v2 (2/2)</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/pexels-photo-134643.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/time-lapse-cars-on-fast-motion-134643/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.7);">Companies &amp; Apache v2 (2/2)</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.7); font-family: monospace; font-size: smaller;">
 6. Trademarks
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+						<p style="background-color: rgba(0, 0, 0, 0.7); font-family: monospace; font-size: smaller;">
 This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Things like this open a door for a CLA and not allowed under copyleft</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Things like this open a door for a CLA and not allowed under copyleft</p>
 						<aside class="notes">
 							Here is your in for a CLA with Apache v2
 						</aside>
 					</section>
 					<section>
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Don't take my word for it</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Kyle E Mitchell has similar views:</p>
+						<!-- Background Image Attribution:  -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Don't take my word for it</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Kyle E Mitchell <a href="https://writing.kemitchell.com/2017/03/29/OSS-Business-Perception-Report.html">has similar views:</a></p>
+						<img class="stretch" src="img/KenMitchellOSLBPR-2017Q1.png">
 						<aside class="notes">
-							https://writing.kemitchell.com/2017/03/29/OSS-Business-Perception-Report.html?utm_source=cronweekly.com
+							https://writing.kemitchell.com/2017/03/29/OSS-Business-Perception-Report.html
 						</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/Downhill.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Contributing</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Understaing the license</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Understand if you are allowed to contribute</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Understand what you are allowed to contribute</p>
+					<section data-background="img/play-stone-network-networked-interactive-163064.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/close-up-photography-of-yellow-green-red-and-brown-plastic-cones-on-white-lined-surface-163064/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Contributing</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Understand the license</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Understand if you are allowed to contribute</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Understand what you are allowed to contribute</p>
 						<aside class="notes">
 							Now that we have all that out of the way, let's get down to business.
 						</aside>
 					</section>
-					<section data-background="images/Downhill.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Understanding the license</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Intention vs Law</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/6853137775_ec582cf63a_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/publicresourceorg/6853137775/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Understanding the license</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Intention vs Law</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: smaller;">
 							"I give you source code, you give me your changes back, we're even. That's my take on GPLv2. It's that simple. Version 3 extended that in ways I personally am really uncomforable with. I give source code, that means that if you use that source code you can't use it on your device unless you follow my rules." -<a href="https://youtu.be/5PmHRSeA2c8?t=47m46s">Linus Torvalds at DebConf 14</a>
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">The license is legal code, and you need to know what it says and means</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">The license is legal code, and you need to know what it says and means</p>
 						<aside class="notes">
-							Oh, one more
+							This is a very simplistic view of GPL, and skips about 2/3 of what the license says. After this statement in his talk, Linus goes on to list things he doesn't Like about GPLv3 - most of which are in GPLv2 as well.
 						</aside>
 					</section>
-					<section data-background="images/Downhill.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Understanding the license</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Intention vs Law</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/6853137775_ec582cf63a_o.jpg">
+						<!-- Background Image Attribution: https://www.flickr.com/photos/publicresourceorg/6853137775/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Understanding the license</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Intention vs Law</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: 55%;">
 							If you want to use lightGallery to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. Purchase a lightGallery Commercial License at uplabs.com/posts/lightgallery-plugin
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+						<p style="background-color: rgba(0, 0, 0, 0.5); font-family: monospace; font-size: 55%;">
 							If you are creating an open source application under a license compatible with the GNU GPL license v3, you may use this project under the terms of the GPLv3.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">That's not how this works. That's not how any of this works.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">That's not how this works. That's not how any of this works.</p>
 						<aside class="notes">
 							https://github.com/sachinchoolur/lightGallery
-							I can't tell you how many times people tell me what they think the GPL does, and they are wrong. This one just gives me such facepalm.
+							I can't tell you how many times people tell me what they think the GPL does, and they are wrong. This one just gives me such facepalm. Don't use code licensed like this.
 							FUD around the CDDL is also at an all time high for similar reasons. I use ZFS, I'm comfortable with it. I mostly just don't give people outside my org binary packages.
 						</aside>
 					</section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Understand if you are allowed to contribute</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Owner != Author</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+					<section data-background="img/building-joy-planning-plans.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/man-building-architect-joy-33343/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.7);">Understand if you are allowed to contribute</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">Owner != Author</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7); font-family: monospace; font-size: smaller;">
 							If the work is made for a company while the author is under a work for hire, the company becomes the author and thus the owner of the copyright
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3); font-family: monospace; font-size: smaller;">
+						<p style="background-color: rgba(0, 0, 0, 0.7);">
 							Which means if you wrote code while at work, it’s not yours anymore, it’s your company’s. That means you cannot assign a license to it or agree to the terms of a license. Only your company can.
 						</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">In Texas, most employees are work for hire</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">In Texas, most employees are work for hire</p>
 					</section>
-					<section data-background="images/ndg-science.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Oh 💩</h2>
+					<section data-background="img/firework-new-year-s-eve-rocket.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/firework-new-year-s-eve-rocket-3893/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Oh 💩</h2>
 						<aside class="notes">
 							Surprise! This is when I get to shit on OpenStack and Chef a bit.
 						</aside>
 					</section>
-					<section data-background="images/colbert-poof.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Diversion: DCO</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);"><a href="https://developercertificate.org/">developercertificate.org</a></p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This is the new hotness. Linux Kernel, OpenStack, <span style="text-decoration: line-through;">Docker</span>Moby, Chef, and other use it.</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">My beef: this puts the onus on me to prove I am allowed to do this. As opposed to a CCLA that protects me from that by saying my company agrees.</p>
+					<section data-background="img/pexels-photo-119580.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/yellow-fireworks-display-during-nigh-time-119580/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.7);">Diversion: DCO</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.7);"><a href="https://developercertificate.org/">developercertificate.org</a></p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">This is the new hotness. Linux Kernel, OpenStack, <span style="text-decoration: line-through;">Docker</span>Moby, Chef, and other use it.</p>
+						<p style="background-color: rgba(0, 0, 0, 0.7);">My beef: this puts the onus on me to prove I am allowed to do this. As opposed to a CCLA that protects me from that by saying my company agrees.</p>
 						<aside class="notes">
-							Corporate contributions can be unbelievably scary, and this isn't helping. Making it easy doesn't make it better.
+							Corporate contributions can be unbelievably scary, and IMHO this isn't helping. Making it easy to commit shouldn't be the bar. This places all the onus on the contributor to make sure they are in the clear. I'm certainly not comfortable attaching a DCO to works made for hire at most employers.
 						</aside>
 					</section>
-					<section data-background="images/MorePlease.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Understand what you are allowed to contribute</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">You should have a discussion with your management (or vice versa) about what you are doing and why</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Get everything in writing and keep it.</p>
+					<section data-background="img/pexels-photo-27843.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/person-watching-fireworks-27843/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Understand what you are allowed to contribute</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">You should have a discussion with your management (or vice versa) about what you are doing and why</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Get everything in writing and keep it.</p>
 						<aside class="notes">
-							As managers, reach out to your employees. Help them understand what is OK and what is not. Work with the corporate lawyers. Make things clear and provide it in writing to help your employees.
+							As managers, reach out to your employees. Help them understand what is OK and what is not. Work with the corporate lawyers. Make things clear and provide it in writing to help your employees. Empower them with a papertrail.
 						</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Why should you care?</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Almost none of the OSS licenses have a clean way to change the license of a project without a CLA - so you only get one shot</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">What license you choose will shape who uses your code</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">As a project maintainer it's your responsibility to protect the project and your contributors</p>
+					<section data-background="img/firework-new-year-s-eve-december-31-fireworks.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/firework-new-year-s-eve-december-31-fireworks-3863/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Why should you care?</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Almost none of the OSS licenses have a clean way to change the license of a project without a CLA - so you only get one shot</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">What license you choose will shape who uses your code</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">As a project maintainer it's your responsibility to protect the project and your contributors</p>
 						<aside class="notes">
 							More?
 						</aside>
 					</section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Why should you care more?</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">Your contributions could jeopardize an open source project</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">You could be exposing your company to a lawsuit by using someone else’s code</p>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">You could be exposing yourself to action from your company for releasing “Proprietary IP”</p>
+					<section data-background="img/pexels-photo-27198.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/fireworks-lights-people-sky-27198/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Why should you care more?</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">Your contributions could jeopardize an open source project</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">You could be exposing your company to a lawsuit by using someone else’s code</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">You could be exposing yourself to action from your company for releasing “Proprietary IP”</p>
 						<aside class="notes">
 							so yeah, this is serious.
 						</aside>
 					</section>
 				</section>
 				<section>
-					<section data-background="images/ggl-2.jpg">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Next steps</h2>
+					<section data-background="img/pexels-photo-394377.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/arrows-close-up-dark-energy-394377/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Next steps</h2>
 						<aside class="notes">
 						</aside>
 					</section>
-					<section data-background="images/CONSUME.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Perform a license audit</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This is probably as horrible as it sounds</p>
+					<section data-background="img/pexels-photo-429345.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/adults-books-busy-crowd-429345/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Perform a license audit</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">This is probably as horrible as it sounds</p>
 						<aside class="notes">
 							You may have a lot of languages. Many have packaging formats that include license information (python, ruby) so it's easier to audit those packages.
 							Look at your build dependencies.
 							Look at ldd on compiled code, you may be surprised at what you find.
 						</aside>
 					</section>
-					<section data-background="images/CONSUME.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Understand if using GPL is OK in your org</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">If not, find alternatives for that code</p>
+					<section data-background="img/pexels-photo-102644.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/yellow-and-black-arrow-road-signage-during-daytime-102644/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Understand if using GPL is OK in your org</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">If not, find alternatives for that code</p>
 						<aside class="notes">
 							This can be easy (libedit instead of libreadline) or super hard (pkgconfig)
-							Get clear guidance of build tools vs end product (autoconf is almost always fine, but if gcc is a problem switch to llvm)
+							Get clear guidance of build tools vs end product (autoconf is almost always fine since it's not part of the product, but if gcc is a problem switch to llvm)
 						</aside>
 					</section>
-					<section data-background="images/CONSUME.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Pick a common way to open projects</h2>
-						<p style="background-color: rgba(0, 0, 0, 0.3);">This includes license, possible CLA, and systems for that</p>
+					<section data-background="img/pexels-photo-34600.jpg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/coffee-writing-computer-blogging-34600/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Pick a common way to open projects</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);">This includes license, possible CLA, and systems for that</p>
 						<aside class="notes">
 							We covered a lot on this. But this is why I prefer Academic - not a lot of fuss.
 						</aside>
 					</section>
-					<section data-background="images/ButFast.gif">
-						<h2 style="background-color: rgba(0, 0, 0, 0.3);">Ask for help</h2>
+					<section data-background="img/pexels-photo-89806.jpeg">
+						<!-- Background Image Attribution: https://www.pexels.com/photo/bracelets-couple-hands-holding-hands-89806/ -->
+						<h2 style="background-color: rgba(0, 0, 0, 0.5);">Ask for help</h2>
+						<p style="background-color: rgba(0, 0, 0, 0.5);"><a href="https://www.eff.org/">EFF</a> is a great resource</p>
+						<p style="background-color: rgba(0, 0, 0, 0.5);"><a href="http://www.techlawgarden.com/">Tech Law Garden</a> is my awesome lawyer, and she's looking for clients</p>
 						<aside class="notes">
-							Talk to the corporate lawyers and your own. There are resources:
+							Talk to the corporate lawyers and your own. There are resources: EFF, and Tennile!
 						</aside>
 					</section>
 				</section>
-				<section data-background="images/TheEndBurningSun.gif">
-					<h2 style="background-color: rgba(0, 0, 0, 0.3);">Thanks!</h2>
+				<section data-background="img/pexels-photo-139575.jpeg">
+					<!-- Background Image Attribution: https://www.pexels.com/photo/man-stand-on-a-cliff-holding-a-light-139575/ -->
+					<h2 style="background-color: rgba(0, 0, 0, 0.5);">Thanks!</h2>
 					<aside class="notes">GIF source http://giphy.com/gifs/sun-solar-the-end-110IlProGBQgs8</aside>
 				</section>
 			</div>
